@@ -29,3 +29,11 @@ cd task-manager-app
 Then just open `index.html` in any browser.
 
 ## Project Structure
+task-manager-app/
+├── index.html
+├── style.css
+└── README.md
+
+## License
+
+MIT
