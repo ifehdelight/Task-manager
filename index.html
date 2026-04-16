@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Task Manager App</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+      <h2 class="todo-title">
+         Tasks
+      </h2>
+      <ul class="todolist">
+         <li class="list-item">
+            <input type="checkbox" class="isDone">
+            <p class="todo">Read my books
+            </p>
+            <span class="todo-time">10/04 16:36</span>
+         </li>
+         
+         <li class="list-item">
+            <input type="checkbox" class="isDone">
+            <p class="todo">Watch YouTube tutorials 
+            </p>
+            <span class="todo-time">10/04 17:36</span>
+         </li>
+         
+          <li class="list-item">
+            <input type="checkbox" class="isDone">
+            <p class="todo">Commit code on my GitHub 
+            </p>
+            <span class="todo-time">10/04 16:36</span>
+         </li>
+      </ul>
+      <button type="button" class="create-button">+</button>
+   </div>
+   
+   <script>
+      const todoList = [];
+      const buttonElem = document.querySelector('.create-button');
+      const list = document.querySelector('.list-item')
+      
+      function showAdd() {
+         buttonElem
+      }
+      
+   </script>
+</body>
+
+</html>
