@@ -1,10 +1,11 @@
       * {
          padding: 0;
          margin: 0;
+         box-sizing: border-box
       }
       
       body {
-         font-family: sans-serif monospace;
+         font-family: sans-serif, monospace;
          background-color: black;
       }
       
@@ -69,6 +70,13 @@
       .container .create-button {
          font-size: 20px;
          color: whitesmoke;
+      }
+
+      .container .default {
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: center;
       }
       
       @media(min-width: 768px) {
