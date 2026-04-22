@@ -1,4 +1,4 @@
-       * {
+      * {
          padding: 0;
          margin: 0;
          box-sizing: border-box;
@@ -29,7 +29,7 @@
       
       .container .list-item {
          background: #333333;
-         color: black;
+         color: white;
          list-style-type: none;
          padding: clamp(16px, 3vw, 24px);
          min-height: 50px;
@@ -107,4 +107,4 @@
             margin: 0 auto;
             padding: clamp(24px, 5vw, 48px);
          }
-      }
+      }  
