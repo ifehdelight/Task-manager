@@ -28,7 +28,7 @@
       }
       
       .container .list-item {
-         background: lightgray;
+         background: #333333;
          color: black;
          list-style-type: none;
          padding: clamp(16px, 3vw, 24px);
